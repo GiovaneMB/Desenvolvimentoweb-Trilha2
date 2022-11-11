@@ -1,0 +1,14 @@
+/* em HTML é ID = em CSS é # */
+/* em HTML é class = em CSS é */
+#principal {
+    text-align: center;
+    color: aquamarine;
+}
+h1{
+    color: blueviolet;
+}
+.basico{
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
