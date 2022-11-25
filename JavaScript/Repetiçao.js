@@ -1,3 +1,3 @@
-for (let cont = 0; cont < 10; cont++){
-console.log('deu bom')
+for (let cont = 0; cont < 21; cont++){
+console.log(cont)
 }
