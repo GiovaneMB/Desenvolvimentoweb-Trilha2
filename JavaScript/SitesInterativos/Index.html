@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Sinal de Transito</title>
+</head>
+<body>
+    <h1 class="Titulo">Qual açao devo tomar ?</h1>
+    <h2 class="comando">Clique no botao para saber:</h2>
+    <div class="btns">
+         <button type="button" onclick="pegarCorBotao('verde')" id="verde" class="btn btn btn-successo">VERDE</button>
+         <button type="button" onclick="pegarCorBotao('amarelo')" id= "amarelo" class="btn btn btn-warning">AMARELO </button>
+         <button type="button" onclick="pegarCorBotao('vermelho')" id= "vermelho" class="btn btn btn-danger">VERMELHO </button>
+    </div>
+    <div id="res"> </div>
+    <div id="img">
+    <img src="semafaro.png">
+    </div>
+</body>
+</html>
