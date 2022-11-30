@@ -28,9 +28,7 @@ mensagem(20)
 
 //funçao que mostre sua altura em centímetros.
 
-
 //funçao que mostre sua idade em anos, meses e depois em dias.
-
 function AnosMesesDias(Anos,Meses,Dias){
 Dias=Anos*365
 Meses=Dias/30
@@ -42,7 +40,6 @@ console.log(`voce tem ${Meses} em meses de idade`)
 AnosMesesDias(23)
 
 //Funçao que mostre o tamanho do nome do usuário.
-
 
 //Crie uma funçao e salve seu resultado em uma variável:
 function calcularArea(altura, largura){
